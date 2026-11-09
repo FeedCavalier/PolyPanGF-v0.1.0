@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polypangf"
+version = "0.1.0"
+description = "Mixed-ploidy pan-gene-family analysis and reproducible reporting"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["biopython>=1.79", "numpy>=1.21", "scipy>=1.7", "matplotlib>=3.5", "PyYAML>=6"]
+
+[project.scripts]
+polypangf = "polypangf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

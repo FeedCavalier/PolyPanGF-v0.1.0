@@ -1,0 +1,22 @@
+name: polypangf
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.9
+  - pip
+  - biopython
+  - numpy
+  - scipy
+  - matplotlib-base
+  - pyyaml
+  - hmmer
+  - orthofinder
+  - diamond
+  - mafft
+  - fasttree
+  - mcscanx
+  - paml
+  - pal2nal
+  - python-igraph
+
